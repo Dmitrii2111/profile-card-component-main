@@ -90,7 +90,7 @@
 .share:hover {
    cursor: pointer;
 }
-#social_wrap{
+.social_wrap{
    visibility: hidden;
    position: absolute;
    z-index: 10;
@@ -158,6 +158,20 @@
       width: 100%;
       height: 20em;
       background-size: cover;
+   }
+   .social_wrap{
+      left: 5%;
+      padding: 0 87px 0 0;
+      height: 60px;
+      margin-bottom: unset;
+      border-radius: unset;
+   }
+   .social_wrap::after{
+      content:none;
+     
+   }
+   .share ion-icon{
+      z-index: 99;
    }
    .attribution{
       left: 8%;
