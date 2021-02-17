@@ -144,3 +144,22 @@
 .attribution a {
    color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 375px) {
+   .wrap{
+      padding-left: unset;
+   }
+   .container{
+      width: 90%;
+      flex-direction: column;
+      align-items: center;
+   }
+   .image_container{
+      width: 100%;
+      height: 20em;
+      background-size: cover;
+   }
+   .attribution{
+      left: 8%;
+   }
+}
